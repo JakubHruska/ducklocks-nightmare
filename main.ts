@@ -2,6 +2,7 @@
 namespace SpriteKind {
     export const Boss = SpriteKind.create()
 }
+let currentLevel = 0
 
 //===========hráč
 let player = sprites.create(assets.image`duckLockRight`, SpriteKind.Player)
@@ -29,7 +30,7 @@ function initialize(/*_level : number*/) {
 
     //===========spawn enemy
     if (currentLevel !=3 ) {
-        for (let value of tiles.getTilesByType(assets.tile`enemy`)) {
+        for (let value of tiles.getTilesByType(assets.tile`enemySpawn`)) {
             let enemy = sprites.create(assets.image`enemy`, SpriteKind.Enemy)
             tiles.placeOnTile(enemy, value)
             tiles.setTileAt(value, assets.tile`emptyTile`)
@@ -76,4 +77,4 @@ function clear() {
 }
 
 game.splash("DuckLocks Nightmare", "\nVítej ve hře")
-setLevel(currentLevel)
+setLevel(0)

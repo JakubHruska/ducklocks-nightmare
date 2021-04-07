@@ -1,7 +1,7 @@
 //===========nastavení mapy
 scene.setBackgroundColor(9)
 
-let currentLevel = 0
+
 function setLevel (level: number) {
     clear()
     if (level == 0) {
