@@ -41,11 +41,6 @@ function initialize(/*_level : number*/) {
                 enemy.vx = -50
             }
         }
-
-        if (currentLevel == 1) {
-            pause(6000)
-            game.splash("Některé jump pady jdou použít jako double jump")
-        }
     }
 
     //boss

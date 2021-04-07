@@ -12,6 +12,10 @@ function setLevel (level: number) {
     }
     else if (level == 1) {
         tiles.setTilemap(tilemap`level_1`)
+        game.showLongText("Některé jump pady jdou použít jako double jump. "+
+        "Načasuj správně druhý skok a dostaň se ještě výše!",
+        DialogLayout.Full
+        )
     }
     else if (level == 2) {
         tiles.setTilemap(tilemap`level_2`)
