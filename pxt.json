@@ -14,7 +14,8 @@
         "tilemap.g.ts",
         "enemyMovement.ts",
         "levels.ts",
-        "logic.ts"
+        "logic.ts",
+        "munition.ts"
     ],
     "testFiles": [
         "test.ts"
