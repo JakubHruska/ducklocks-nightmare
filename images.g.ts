@@ -1,0 +1,206 @@
+// Auto-generated code. Do not edit.
+namespace myImages {
+
+    helpers._registerFactory("image", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "image1":
+            case "bullet":return img`
+f f 
+`;
+            case "image2":
+            case "supplies":return img`
+d d e e e e e e e e e e e e d d 
+d e d d d d d d d d d d d d e d 
+e d d e e e e e e e e e e d d e 
+e d e d e e e e e e e e d e d e 
+e d e e d e e e e e e d e e d e 
+e d e e e d e e e e d e e e d e 
+e d e e e e d e e d e e e e d e 
+e d e e e e e d d e e e e e d e 
+e d e e e e e d d e e e e e d e 
+e d e e e e d e e d e e e e d e 
+e d e e e d e e e e d e e e d e 
+e d e e d e e e e e e d e e d e 
+e d e d e e e e e e e e d e d e 
+e d d e e e e e e e e e e d d e 
+d e d d d d d d d d d d d d e d 
+d d e e e e e e e e e e e e d d 
+`;
+            case "image3":
+            case "enemy":return img`
+. . 2 2 b b b b b . . . . . . . 
+. 2 b 4 4 4 4 4 4 b . . . . . . 
+2 2 4 f 1 d 4 d 4 4 b . . . . . 
+2 b 4 f f 1 4 4 d 4 b . . . . . 
+2 b 4 b f d 4 4 4 d 4 b . . . . 
+2 b 4 4 4 4 4 4 4 4 4 b . . . . 
+2 b 4 4 4 4 4 4 4 4 4 e . . . . 
+2 2 b 4 4 4 4 4 4 4 b e . . . . 
+. 2 b b b 4 4 4 b b b e . . . . 
+. . e b b b b b b b e e . . . . 
+. . . e e b 4 4 b e e e b . . . 
+. . . . . e e e e e e b d b b . 
+. . . . . . . . . . . b 1 1 1 b 
+. . . . . . . . . . . c 1 d d b 
+. . . . . . . . . . . c 1 b c . 
+. . . . . . . . . . . . c c . . 
+`;
+            case "image4":
+            case "duckLock_original":return img`
+.........b55b......
+....22.bb55c.......
+..22.22222222......
+.22..b22222222.....
+....b555d1f55df....
+....b5551ff5ddc....
+....b555dfbdd444...
+bddddbbd555444444b.
+bbbd555b55444444bf.
+bddc55eeeefffffffff
+cdddcdeee5f5ff55b..
+cbdddce55f555ff5b..
+.ccdddddd55555ffb..
+..cbdddddd5555db...
+...cddddddd555b....
+....ccccccccbb.....
+`;
+            case "image5":
+            case "duckLockRight":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . 2 2 . . b 5 c . . . . . 
+. . 2 2 . 2 2 2 2 2 2 2 . . . . 
+. 2 2 . . b 2 2 2 2 2 2 2 . . . 
+. . . . b b 5 d 1 f 5 5 d f . . 
+. . . . b 5 5 1 f f 5 d 4 c . . 
+. . . . b 5 5 d f b d d 4 4 . . 
+b d d d b b d 5 5 5 4 4 4 4 4 b 
+b b d 5 5 5 b 5 5 4 4 4 4 4 f . 
+b d c 5 5 e e e e f f f f f f f 
+c d d c d e e e 5 f 5 f f 5 b . 
+c b d d c e b 5 f 5 5 5 f f b . 
+. c d d d d d d 5 5 5 5 5 f f . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`;
+            case "image6":
+            case "duckLockLeft":return img`
+. . . . . . . . . . . . . . . . 
+. . . . b 5 b . . . . . . . . . 
+. . . . . c 5 b . . 2 2 . . . . 
+. . . . 2 2 2 2 2 2 2 . 2 2 . . 
+. . . 2 2 2 2 2 2 2 b . . 2 2 . 
+. . f d 5 5 f 1 d 5 b b . . . . 
+. . c 4 d 5 f f 1 5 5 b . . . . 
+. . 4 4 d d b f d 5 5 b . . . . 
+b 4 4 4 4 4 5 5 5 d b b d d d b 
+. f 4 4 4 4 4 5 5 b 5 5 5 d b b 
+f f f f f f f e e e e 5 5 c d b 
+. b 5 f f 5 f 5 e e e d c d d c 
+. b f f 5 5 5 f 5 b e c d d b c 
+. f f 5 5 5 5 5 d d d d d d c . 
+. . b b 5 5 5 d d d d d b c . . 
+. . . b b c c c c c c c c . . . 
+`;
+            case "image7":
+            case "bossGoose":return img`
+.......fffffff..................
+......ff111111f.................
+.....ff4f11ff1f.................
+...fff44f11ff1f.................
+..ff44444f1111f.................
+..f44444ffff11f.................
+..ff44fff..f11f.................
+...ffff....f11f.................
+...........f11f.................
+...........f11f.................
+...........f11f.................
+........ffff11fffff.............
+.......ff11111f111ff............
+......ff111111f1111f.........fff
+......f111111111111ff......fff1f
+......f1111111111111ff....ff111f
+......f11111111111111ffffff1111f
+......f11111111111111111111111ff
+......f11111ff1111111111111111f.
+......ff11111ff11111111111111ff.
+.......ff11111ff111111f111111f..
+........ff11111ff1111f111111ff..
+.........ff11111fffff111111ff...
+..........ff11111111111111ff....
+...........ff111111111111ff.....
+............ff1111111111ff......
+.............ffffffffffff.......
+................f.....f.........
+................ff...ff.........
+.............fff44f.f44fff......
+............f44444f.f44444f.....
+............ffffff...ffffff.....
+`;
+            case "image8":
+            case "bossGoose0":return img`
+..................fffffff.......
+.................f111111ff......
+.................f1ff11f4ff.....
+.................f1ff11f44fff...
+.................f1111f44444ff..
+.................f11ffff44444f..
+.................f11f..fff44ff..
+.................f11f....ffff...
+.................f11f...........
+.................f11f...........
+.................f11f...........
+.............fffff11ffff........
+............ff111f11111ff.......
+fff.........f1111f111111ff......
+f1fff......ff111111111111f......
+f111ff....ff1111111111111f......
+f1111ffffff11111111111111f......
+ff11111111111111111111111f......
+.f1111111111111111ff11111f......
+.ff11111111111111ff11111ff......
+..f111111f111111ff11111ff.......
+..ff111111f1111ff11111ff........
+...ff111111fffff11111ff.........
+....ff11111111111111ff..........
+.....ff111111111111ff...........
+......ff1111111111ff............
+.......ffffffffffff.............
+.........f.....f................
+.........ff...ff................
+......fff44f.f44fff.............
+.....f44444f.f44444f............
+.....ffffff...ffffff............
+`;
+            case "image9":
+            case "enemy0":return img`
+. . . . . . . b b b b b 2 2 . . 
+. . . . . . b 4 4 4 4 4 4 b 2 . 
+. . . . . b 4 4 d 4 d 1 f 4 2 2 
+. . . . . b 4 d 4 4 1 f f 4 b 2 
+. . . . b 4 d 4 4 4 d f b 4 b 2 
+. . . . b 4 4 4 4 4 4 4 4 4 b 2 
+. . . . e 4 4 4 4 4 4 4 4 4 b 2 
+. . . . e b 4 4 4 4 4 4 4 b 2 2 
+. . . . e b b b 4 4 4 b b b 2 . 
+. . . . e e b b b b b b b e . . 
+. . . b e e e b 4 4 b e e . . . 
+. b b d b e e e e e e . . . . . 
+b 1 1 1 b . . . . . . . . . . . 
+b d d 1 c . . . . . . . . . . . 
+. c b 1 c . . . . . . . . . . . 
+. . c c . . . . . . . . . . . . 
+`;
+        }
+        return null;
+    })
+
+    helpers._registerFactory("animation", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+}
+// Auto-generated code. Do not edit.
