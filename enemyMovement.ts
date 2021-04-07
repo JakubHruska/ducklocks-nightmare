@@ -23,7 +23,7 @@ game.onUpdate(function () {
     }
 })
 
-if (currentLevel == 3) {
+if (currentLevel = 3) {
     game.onUpdate(function () {
         for (let value2 of sprites.allOfKind(SpriteKind.Boss)) {
             if (value2.vx < 0) {

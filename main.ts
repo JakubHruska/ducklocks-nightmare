@@ -44,7 +44,7 @@ function initialize(/*_level : number*/) {
     }
 
     //boss
-    else if (currentLevel == 3) {
+    else if (currentLevel = 3) {
         music.siren.play()
         let boss = sprites.create(assets.image`bossGoose`, SpriteKind.Boss)
         tiles.placeOnTile(boss, tiles.getTilesByType(assets.tile`bossSpawn`)[0])
@@ -76,6 +76,5 @@ function clear() {
     }
 }
 
-//=========Start hry
 game.splash("DuckLocks Nightmare", "\nVítej ve hře")
-setLevel(currentLevel)
+setLevel(0)
