@@ -12,10 +12,7 @@ function setLevel (level: number) {
     }
     else if (level == 1) {
         tiles.setTilemap(tilemap`level_1`)
-        game.showLongText("Některé jump pady jdou použít jako double jump. "+
-        "Načasuj správně druhý skok a dostaň se ještě výše!",
-        DialogLayout.Full
-        )
+        tipJumpPad()
     }
     else if (level == 2) {
         tiles.setTilemap(tilemap`level_2`)
@@ -41,6 +38,14 @@ function tutorial() {
         "Zelené bloky přidávají výšku skoku. Hnědé krabice doplňují munici (5) a životy (1). "+
         "Nepřátele lze také zlikvidovat skokem shora"+
         "\nMax HP = 5\nMax ammo = 30",
+        DialogLayout.Full
+    )
+}
+
+function tipJumpPad() {
+    game.showLongText(
+        "Některé jump pady jdou použít jako double jump. "+
+        "Načasuj správně druhý skok a dostaň se ještě výše!",
         DialogLayout.Full
     )
 }
