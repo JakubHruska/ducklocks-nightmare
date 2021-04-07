@@ -41,10 +41,15 @@ function initialize(/*_level : number*/) {
                 enemy.vx = -50
             }
         }
+
+        if (currentLevel == 1) {
+            pause(6000)
+            game.splash("Některé jump pady jdou použít jako double jump")
+        }
     }
 
     //boss
-    else if (currentLevel = 3) {
+    else if (currentLevel == 3) {
         music.siren.play()
         let boss = sprites.create(assets.image`bossGoose`, SpriteKind.Boss)
         tiles.placeOnTile(boss, tiles.getTilesByType(assets.tile`bossSpawn`)[0])
@@ -76,5 +81,6 @@ function clear() {
     }
 }
 
+//=========Start hry
 game.splash("DuckLocks Nightmare", "\nVítej ve hře")
-setLevel(0)
+setLevel(currentLevel)
