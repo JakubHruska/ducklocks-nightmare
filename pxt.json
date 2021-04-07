@@ -13,7 +13,8 @@
         "tilemap.g.jres",
         "tilemap.g.ts",
         "enemyMovement.ts",
-        "levels.ts"
+        "levels.ts",
+        "logic.ts"
     ],
     "testFiles": [
         "test.ts"
